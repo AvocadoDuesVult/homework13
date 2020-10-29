@@ -1,3 +1,11 @@
-.text-justify {
-    text-align: justify;
+small{
+    display: none;
+}
+
+input:valid + small + small{
+    display: inline;
+}
+
+input:invalid + small{
+    display: inline;
 }
